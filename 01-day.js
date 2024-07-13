@@ -35,3 +35,10 @@ console.log("name:", name, typeof name);
 console.log("fruits:", fruits, typeof fruits);
 console.log("hasFinished:", hasFinished, typeof hasFinished);
 console.log("user:", user, typeof user);
+
+// Activity 4: Reassigning Variable
+// Task 2: Declare a variable using `let`, assign it an initial value, reassign a new value, and log both values to the console.
+let greetingMessage = "Hello world";
+console.log("1 Greeting:", greetingMessage);
+greetingMessage = "Welcome to Javascript";
+console.log("2 Reassign Greeting:", greetingMessage);
