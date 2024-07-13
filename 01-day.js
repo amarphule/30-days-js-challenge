@@ -16,4 +16,22 @@ console.log("Name:", username);
 // Task 3: Declare a variable using `const`, assign it a boolean, and log the value to the console.
 
 const isAdmin = true;
-console.log("Role :", isAdmin);
+console.log("Admin Role :", isAdmin);
+
+// Activity 3: Data Types
+// Task 4: Create different data types (number, string, boolean, array, object) and log each variable type using `typeof` operator.
+let price = 100;
+let name = "Amar";
+let fruits = ["kiwi", "orange", "mango", "banana", "cherry"];
+let hasFinished = false;
+let user = {
+  name: "Amardeep",
+  age: 30,
+  isAdmin: true,
+};
+
+console.log("price:", price, typeof price);
+console.log("name:", name, typeof name);
+console.log("fruits:", fruits, typeof fruits);
+console.log("hasFinished:", hasFinished, typeof hasFinished);
+console.log("user:", user, typeof user);
