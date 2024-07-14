@@ -80,3 +80,29 @@ console.log(isEqual(10, "10")); // true (type coercion)
 console.log(isStrictEqual(10, "10")); // false (different types)
 console.log(isEqual(10, 10)); // true
 console.log(isStrictEqual(10, 10)); // true
+
+// Activity 4: Logical Operators
+function bothAreTrue(a, b) {
+  return a && b;
+}
+
+// Usage examples
+console.log(bothAreTrue(true, true)); // true
+console.log(bothAreTrue(true, false)); // false
+console.log(bothAreTrue(false, true)); // false
+console.log(bothAreTrue(false, false)); // false
+
+function eitherIsTrue(a, b) {
+  return a || b;
+}
+console.log(eitherIsTrue(true, true)); // true
+console.log(eitherIsTrue(true, false)); // true
+console.log(eitherIsTrue(false, true)); // true
+console.log(eitherIsTrue(false, false)); // false
+
+function notTrue(a) {
+  return !a;
+}
+
+console.log(notTrue(true)); // false
+console.log(notTrue(false)); // true
