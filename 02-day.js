@@ -48,3 +48,35 @@ function subToValue(initialVal, decrementBy) {
 
 addToValue(10, 5);
 subToValue(10, 2);
+
+// Acitivity 3: Comparison operator
+function isGreaterThan(a, b) {
+  return a > b;
+}
+
+function isLessThan(a, b) {
+  return a < b;
+}
+function isGreaterThanOrEqualTo(a, b) {
+  return a >= b;
+}
+
+function isLessThanOrEqualTo(a, b) {
+  return a <= b;
+}
+function isEqual(a, b) {
+  return a == b; // Loose equality
+}
+
+function isStrictEqual(a, b) {
+  return a === b; // Strict equality
+}
+// Usage examples
+console.log(isGreaterThan(10, 5)); // true
+console.log(isLessThan(10, 5)); // false
+console.log(isGreaterThanOrEqualTo(10, 5)); // true
+console.log(isGreaterThanOrEqualTo(5, 10)); // false
+console.log(isEqual(10, "10")); // true (type coercion)
+console.log(isStrictEqual(10, "10")); // false (different types)
+console.log(isEqual(10, 10)); // true
+console.log(isStrictEqual(10, 10)); // true
