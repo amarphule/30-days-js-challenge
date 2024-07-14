@@ -27,3 +27,24 @@ SubNumber(10, 5);
 MultipyNumber(5 * 2);
 DivideNumber(12, 4);
 FindRemainder(89, 9);
+
+// Activity 2: Assignment operators
+
+function addToValue(initialVal, incrementBy) {
+  let result = initialVal;
+  result += incrementBy;
+  console.log(
+    `Initial value ${initialVal} increment by ${incrementBy} becomes ${result}`
+  );
+}
+
+function subToValue(initialVal, decrementBy) {
+  let result = initialVal;
+  result -= decrementBy;
+  console.log(
+    `Initial value ${initialVal} decrement by ${decrementBy} becomes ${result}`
+  );
+}
+
+addToValue(10, 5);
+subToValue(10, 2);
