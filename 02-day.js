@@ -106,3 +106,10 @@ function notTrue(a) {
 
 console.log(notTrue(true)); // false
 console.log(notTrue(false)); // true
+
+// Activity 5: Ternory operator
+const isAdult = (age) => (age >= 18 ? "Adult" : "Minor");
+
+// Usage examples
+console.log(isAdult(20)); // 'Adult'
+console.log(isAdult(15)); // 'Minor'
